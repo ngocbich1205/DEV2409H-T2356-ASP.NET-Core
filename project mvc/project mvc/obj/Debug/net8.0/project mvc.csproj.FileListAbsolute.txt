@@ -1,0 +1,30 @@
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\bin\Debug\net8.0\appsettings.Development.json
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\bin\Debug\net8.0\appsettings.json
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\bin\Debug\net8.0\project mvc.staticwebassets.runtime.json
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\bin\Debug\net8.0\project mvc.exe
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\bin\Debug\net8.0\project mvc.deps.json
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\bin\Debug\net8.0\project mvc.runtimeconfig.json
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\bin\Debug\net8.0\project mvc.dll
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\bin\Debug\net8.0\project mvc.pdb
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.AssemblyInfoInputs.cache
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.AssemblyInfo.cs
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.csproj.CoreCompileInputs.cache
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.MvcApplicationPartsAssemblyInfo.cache
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.RazorAssemblyInfo.cache
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.RazorAssemblyInfo.cs
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\staticwebassets.build.json
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\staticwebassets.development.json
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\staticwebassets\msbuild.project mvc.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\staticwebassets\msbuild.build.project mvc.props
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.project mvc.props
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.project mvc.props
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\staticwebassets.pack.json
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\scopedcss\bundle\project mvc.styles.css
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\scopedcss\projectbundle\project mvc.bundle.scp.css
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.dll
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\refint\project mvc.dll
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.pdb
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\project mvc.genruntimeconfig.cache
+D:\DEV2409H-T2356-ASP.NET-Core\project mvc\project mvc\obj\Debug\net8.0\ref\project mvc.dll
