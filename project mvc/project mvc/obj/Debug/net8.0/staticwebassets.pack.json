@@ -41,6 +41,18 @@
       "PackagePath": "staticwebassets\\images\\product\\product-4.jpg"
     },
     {
+      "Id": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\wwwroot\\images\\product\\sach1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\sach1.jpg"
+    },
+    {
+      "Id": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\wwwroot\\images\\product\\sach2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\sach2.jpg"
+    },
+    {
+      "Id": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\wwwroot\\images\\product\\sach3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\sach3.jpg"
+    },
+    {
       "Id": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\book\\popularbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\book\\popularbook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\shared\\banner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\shared\\banner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\book\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\book\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|solutionrelative:project mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAF3EE1A-DCB6-4966-A832-0CAE04B90949}|project mvc\\project mvc.csproj|d:\\dev2409h-t2356-asp.net-core\\project mvc\\project mvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,63 +82,158 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Program.cs",
-              "RelativeDocumentMoniker": "project mvc\\Program.cs",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Program.cs",
-              "RelativeToolTip": "project mvc\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T08:46:18.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Account\\Profile.cshtml",
               "RelativeDocumentMoniker": "project mvc\\Views\\Account\\Profile.cshtml",
               "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Account\\Profile.cshtml",
               "RelativeToolTip": "project mvc\\Views\\Account\\Profile.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T08:32:27.678Z",
+              "WhenOpened": "2024-11-11T04:00:25.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Book\\Create.cshtml",
+              "RelativeDocumentMoniker": "project mvc\\Views\\Book\\Create.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Book\\Create.cshtml",
+              "RelativeToolTip": "project mvc\\Views\\Book\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T07:34:18.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "project mvc\\Views\\Book\\Index.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "project mvc\\Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T07:09:53.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "project mvc\\Views\\Account\\Index.cshtml",
               "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Account\\Index.cshtml",
               "RelativeToolTip": "project mvc\\Views\\Account\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-05T07:42:10.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Book\\Edit.cshtml",
+              "RelativeDocumentMoniker": "project mvc\\Views\\Book\\Edit.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Book\\Edit.cshtml",
+              "RelativeToolTip": "project mvc\\Views\\Book\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T07:54:21.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "project mvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "project mvc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-05T06:53:20.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Banner.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Shared\\Banner.cshtml",
+              "RelativeDocumentMoniker": "project mvc\\Views\\Shared\\Banner.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Shared\\Banner.cshtml",
+              "RelativeToolTip": "project mvc\\Views\\Shared\\Banner.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T08:02:47.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PopularBook.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Book\\PopularBook.cshtml",
+              "RelativeDocumentMoniker": "project mvc\\Views\\Book\\PopularBook.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Book\\PopularBook.cshtml",
+              "RelativeToolTip": "project mvc\\Views\\Book\\PopularBook.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T08:10:48.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "project mvc\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Controllers\\BookController.cs",
+              "RelativeToolTip": "project mvc\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:04:18.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "project mvc\\Models\\Book.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Models\\Book.cs",
+              "RelativeToolTip": "project mvc\\Models\\Book.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T06:38:02.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "project mvc\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Controllers\\AccountController.cs",
               "RelativeToolTip": "project mvc\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwDgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:40:28.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T07:40:28.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "project mvc\\Models\\Account.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Models\\Account.cs",
+              "RelativeToolTip": "project mvc\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:29:51.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "project mvc\\Views\\Product\\Index.cshtml",
@@ -118,12 +241,11 @@
               "RelativeToolTip": "project mvc\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T07:21:32.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T07:21:32.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "project mvc\\Controllers\\ProductController.cs",
@@ -131,25 +253,11 @@
               "RelativeToolTip": "project mvc\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:16:35.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T07:16:35.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "project mvc\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "project mvc\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAUwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T06:53:20.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "project mvc\\Views\\Shared\\_Layout.cshtml",
@@ -157,12 +265,11 @@
               "RelativeToolTip": "project mvc\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T06:49:06.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T06:49:06.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "site.css",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "project mvc\\wwwroot\\css\\site.css",
@@ -170,12 +277,11 @@
               "RelativeToolTip": "project mvc\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-05T07:33:24.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T07:33:24.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Views\\demo\\Index.cshtml",
               "RelativeDocumentMoniker": "project mvc\\Views\\demo\\Index.cshtml",
@@ -183,12 +289,11 @@
               "RelativeToolTip": "project mvc\\Views\\demo\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T06:48:35.158Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T06:48:35.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "demoController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\project mvc\\project mvc\\Controllers\\demoController.cs",
               "RelativeDocumentMoniker": "project mvc\\Controllers\\demoController.cs",
@@ -196,8 +301,7 @@
               "RelativeToolTip": "project mvc\\Controllers\\demoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:45:51.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T06:45:51.502Z"
             }
           ]
         }
