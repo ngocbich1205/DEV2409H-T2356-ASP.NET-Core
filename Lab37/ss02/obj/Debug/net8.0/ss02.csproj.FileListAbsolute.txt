@@ -1,9 +1,0 @@
-D:\DEV2409H-T2356-ASP.NET-Core\Lab37\ss02\obj\Debug\net8.0\ss02.csproj.AssemblyReference.cache
-D:\DEV2409H-T2356-ASP.NET-Core\Lab37\ss02\obj\Debug\net8.0\ss02.GeneratedMSBuildEditorConfig.editorconfig
-D:\DEV2409H-T2356-ASP.NET-Core\Lab37\ss02\obj\Debug\net8.0\ss02.AssemblyInfoInputs.cache
-D:\DEV2409H-T2356-ASP.NET-Core\Lab37\ss02\obj\Debug\net8.0\ss02.AssemblyInfo.cs
-D:\DEV2409H-T2356-ASP.NET-Core\Lab37\ss02\obj\Debug\net8.0\ss02.csproj.CoreCompileInputs.cache
-D:\DEV2409H-T2356-ASP.NET-Core\Lab37\ss02\obj\Debug\net8.0\ss02.MvcApplicationPartsAssemblyInfo.cache
-D:\DEV2409H-T2356-ASP.NET-Core\Lab37\ss02\obj\Debug\net8.0\ss02.RazorAssemblyInfo.cache
-D:\DEV2409H-T2356-ASP.NET-Core\Lab37\ss02\obj\Debug\net8.0\ss02.RazorAssemblyInfo.cs
-D:\DEV2409H-T2356-ASP.NET-Core\Lab37\ss02\obj\Debug\net8.0\ss02.sourcelink.json
