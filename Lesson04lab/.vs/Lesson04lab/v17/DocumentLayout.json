@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson04lab\\lesson04lab\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|solutionrelative:lesson04lab\\views\\people\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson04lab\\lesson04lab\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|solutionrelative:lesson04lab\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson04lab\\lesson04lab\\views\\people\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|solutionrelative:lesson04lab\\views\\people\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson04lab\\lesson04lab\\views\\people\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|solutionrelative:lesson04lab\\views\\people\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson04lab\\lesson04lab\\views\\people\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|solutionrelative:lesson04lab\\views\\people\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson04lab\\lesson04lab\\models\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|solutionrelative:lesson04lab\\models\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson04lab\\lesson04lab\\models\\datalocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|solutionrelative:lesson04lab\\models\\datalocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson04lab\\lesson04lab\\views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5722DB5C-99F2-47FC-B5E4-67A805C7905B}|Lesson04lab\\Lesson04lab.csproj|solutionrelative:lesson04lab\\views\\people\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Lesson04lab\\Views\\People\\Delete.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Delete.cshtml",
+              "RelativeToolTip": "Lesson04lab\\Views\\People\\Delete.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T03:21:46.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lesson04lab\\Views\\People\\Edit.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Edit.cshtml",
+              "RelativeToolTip": "Lesson04lab\\Views\\People\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T03:05:44.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lesson04lab\\Views\\People\\Details.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Details.cshtml",
+              "RelativeToolTip": "Lesson04lab\\Views\\People\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:06:34.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeopleController.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Controllers\\PeopleController.cs",
+              "RelativeDocumentMoniker": "Lesson04lab\\Controllers\\PeopleController.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Controllers\\PeopleController.cs",
+              "RelativeToolTip": "Lesson04lab\\Controllers\\PeopleController.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAuwIsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:28:36.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Create.cshtml",
+              "RelativeDocumentMoniker": "Lesson04lab\\Views\\People\\Create.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Create.cshtml",
+              "RelativeToolTip": "Lesson04lab\\Views\\People\\Create.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T02:19:01.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataLocal.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Models\\DataLocal.cs",
+              "RelativeDocumentMoniker": "Lesson04lab\\Models\\DataLocal.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Models\\DataLocal.cs",
+              "RelativeToolTip": "Lesson04lab\\Models\\DataLocal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:42:45.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "People.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Models\\People.cs",
+              "RelativeDocumentMoniker": "Lesson04lab\\Models\\People.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Models\\People.cs",
+              "RelativeToolTip": "Lesson04lab\\Models\\People.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:36:42.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lesson04lab\\Views\\People\\Index.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lesson04lab\\Lesson04lab\\Views\\People\\Index.cshtml",
+              "RelativeToolTip": "Lesson04lab\\Views\\People\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T01:50:37.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
