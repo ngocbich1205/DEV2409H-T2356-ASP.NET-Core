@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|d:\\dev2409h-t2356-asp.net-core\\session06\\session06\\entities\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|solutionrelative:session06\\entities\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|d:\\dev2409h-t2356-asp.net-core\\session06\\session06\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|solutionrelative:session06\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|d:\\dev2409h-t2356-asp.net-core\\session06\\session06\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|solutionrelative:session06\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|d:\\dev2409h-t2356-asp.net-core\\session06\\session06\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|solutionrelative:session06\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|d:\\dev2409h-t2356-asp.net-core\\session06\\session06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|solutionrelative:session06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|d:\\dev2409h-t2356-asp.net-core\\session06\\session06\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2B2E2F5-181E-4D8B-A612-022195AFDC41}|session06\\session06.csproj|solutionrelative:session06\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "session06\\Models\\Category.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Models\\Category.cs",
+              "RelativeToolTip": "session06\\Models\\Category.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T01:33:27.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "session06\\Models\\Product.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Models\\Product.cs",
+              "RelativeToolTip": "session06\\Models\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T01:39:22.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Entities\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "session06\\Entities\\AppDbContext.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Entities\\AppDbContext.cs",
+              "RelativeToolTip": "session06\\Entities\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T01:57:51.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "session06\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "session06\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:42:59.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Program.cs",
+              "RelativeDocumentMoniker": "session06\\Program.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\Program.cs",
+              "RelativeToolTip": "session06\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T02:00:22.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\appsettings.json",
+              "RelativeDocumentMoniker": "session06\\appsettings.json",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\session06\\session06\\appsettings.json",
+              "RelativeToolTip": "session06\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T01:29:02.327Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

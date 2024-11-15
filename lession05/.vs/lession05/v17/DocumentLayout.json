@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\lession05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61F94292-15A3-467D-A2C8-D75D61FC6BE2}|lession05\\lession05.csproj|d:\\lession05\\lession05\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61F94292-15A3-467D-A2C8-D75D61FC6BE2}|lession05\\lession05.csproj|solutionrelative:lession05\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61F94292-15A3-467D-A2C8-D75D61FC6BE2}|lession05\\lession05.csproj|d:\\lession05\\lession05\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61F94292-15A3-467D-A2C8-D75D61FC6BE2}|lession05\\lession05.csproj|solutionrelative:lession05\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61F94292-15A3-467D-A2C8-D75D61FC6BE2}|lession05\\lession05.csproj|d:\\lession05\\lession05\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61F94292-15A3-467D-A2C8-D75D61FC6BE2}|lession05\\lession05.csproj|solutionrelative:lession05\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61F94292-15A3-467D-A2C8-D75D61FC6BE2}|lession05\\lession05.csproj|d:\\lession05\\lession05\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61F94292-15A3-467D-A2C8-D75D61FC6BE2}|lession05\\lession05.csproj|solutionrelative:lession05\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\lession05\\lession05\\Views\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "lession05\\Views\\Account\\Create.cshtml",
+              "ToolTip": "D:\\lession05\\lession05\\Views\\Account\\Create.cshtml",
+              "RelativeToolTip": "lession05\\Views\\Account\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T04:01:07.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\lession05\\lession05\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "lession05\\Views\\Account\\Index.cshtml",
+              "ToolTip": "D:\\lession05\\lession05\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "lession05\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T03:55:11.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\lession05\\lession05\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "lession05\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\lession05\\lession05\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "lession05\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAIwF0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T03:52:39.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\lession05\\lession05\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "lession05\\Models\\Account.cs",
+              "ToolTip": "D:\\lession05\\lession05\\Models\\Account.cs",
+              "RelativeToolTip": "lession05\\Models\\Account.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T03:42:12.239Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
