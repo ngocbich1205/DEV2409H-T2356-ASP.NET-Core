@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab06\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{79B06B10-8130-4D49-BD0B-C8ED39E2AA69}|lab06 code-first\\lab06 code-first.csproj|d:\\dev2409h-t2356-asp.net-core\\lab06\\lab06 code-first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B06B10-8130-4D49-BD0B-C8ED39E2AA69}|lab06 code-first\\lab06 code-first.csproj|solutionrelative:lab06 code-first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B06B10-8130-4D49-BD0B-C8ED39E2AA69}|lab06 code-first\\lab06 code-first.csproj|d:\\dev2409h-t2356-asp.net-core\\lab06\\lab06 code-first\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79B06B10-8130-4D49-BD0B-C8ED39E2AA69}|lab06 code-first\\lab06 code-first.csproj|solutionrelative:lab06 code-first\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B24DB9A1-22F2-49BB-B146-B97B9F27F9EB}|lab06\\lab06.csproj|d:\\dev2409h-t2356-asp.net-core\\lab06\\lab06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B24DB9A1-22F2-49BB-B146-B97B9F27F9EB}|lab06\\lab06.csproj|solutionrelative:lab06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{B24DB9A1-22F2-49BB-B146-B97B9F27F9EB}|lab06\\lab06.csproj|solutionrelative:lab06\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DEV2409H-T2356-ASP.NET-Core\\lab06\\lab06\\Models\u200B\\QlbhContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab06\\Models\u200B\\QlbhContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B24DB9A1-22F2-49BB-B146-B97B9F27F9EB}|lab06\\lab06.csproj|d:\\dev2409h-t2356-asp.net-core\\lab06\\lab06\\models\u200B\\qlbhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24DB9A1-22F2-49BB-B146-B97B9F27F9EB}|lab06\\lab06.csproj|solutionrelative:lab06\\models\u200B\\qlbhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab06\\lab06 code-first\\appsettings.json",
+              "RelativeDocumentMoniker": "lab06 code-first\\appsettings.json",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab06\\lab06 code-first\\appsettings.json",
+              "RelativeToolTip": "lab06 code-first\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-18T03:45:53.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab06\\lab06 code-first\\Program.cs",
+              "RelativeDocumentMoniker": "lab06 code-first\\Program.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab06\\lab06 code-first\\Program.cs",
+              "RelativeToolTip": "lab06 code-first\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:44:05.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab06\\lab06\\Program.cs",
               "RelativeDocumentMoniker": "lab06\\Program.cs",
@@ -39,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab06\\lab06\\appsettings.json",
               "RelativeDocumentMoniker": "lab06\\appsettings.json",
@@ -47,12 +81,11 @@
               "RelativeToolTip": "lab06\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-15T02:17:04.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T02:17:04.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "QlbhContext.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab06\\lab06\\Models\u200B\\QlbhContext.cs",
               "RelativeDocumentMoniker": "lab06\\Models\u200B\\QlbhContext.cs",
@@ -60,8 +93,7 @@
               "RelativeToolTip": "lab06\\Models\u200B\\QlbhContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T02:16:32.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T02:16:32.78Z"
             }
           ]
         }
