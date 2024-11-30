@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab10Identity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0336ABBA-ED15-490B-97A4-67EBDFE064F1}|lab10Identity\\lab10Identity.csproj|d:\\dev2409h-t2356-asp.net-core\\lab10identity\\lab10identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0336ABBA-ED15-490B-97A4-67EBDFE064F1}|lab10Identity\\lab10Identity.csproj|solutionrelative:lab10identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0336ABBA-ED15-490B-97A4-67EBDFE064F1}|lab10Identity\\lab10Identity.csproj|d:\\dev2409h-t2356-asp.net-core\\lab10identity\\lab10identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0336ABBA-ED15-490B-97A4-67EBDFE064F1}|lab10Identity\\lab10Identity.csproj|solutionrelative:lab10identity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0336ABBA-ED15-490B-97A4-67EBDFE064F1}|lab10Identity\\lab10Identity.csproj|d:\\dev2409h-t2356-asp.net-core\\lab10identity\\lab10identity\\areas\\identity\\data\\lab10identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0336ABBA-ED15-490B-97A4-67EBDFE064F1}|lab10Identity\\lab10Identity.csproj|solutionrelative:lab10identity\\areas\\identity\\data\\lab10identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0336ABBA-ED15-490B-97A4-67EBDFE064F1}|lab10Identity\\lab10Identity.csproj|d:\\dev2409h-t2356-asp.net-core\\lab10identity\\lab10identity\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0336ABBA-ED15-490B-97A4-67EBDFE064F1}|lab10Identity\\lab10Identity.csproj|solutionrelative:lab10identity\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "lab10IdentityDbContext.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab10Identity\\lab10Identity\\Areas\\Identity\\Data\\lab10IdentityDbContext.cs",
+              "RelativeDocumentMoniker": "lab10Identity\\Areas\\Identity\\Data\\lab10IdentityDbContext.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab10Identity\\lab10Identity\\Areas\\Identity\\Data\\lab10IdentityDbContext.cs",
+              "RelativeToolTip": "lab10Identity\\Areas\\Identity\\Data\\lab10IdentityDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:02:58.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab10Identity\\lab10Identity\\Program.cs",
+              "RelativeDocumentMoniker": "lab10Identity\\Program.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab10Identity\\lab10Identity\\Program.cs",
+              "RelativeToolTip": "lab10Identity\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:00:58.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab10Identity\\lab10Identity\\appsettings.json",
+              "RelativeDocumentMoniker": "lab10Identity\\appsettings.json",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab10Identity\\lab10Identity\\appsettings.json",
+              "RelativeToolTip": "lab10Identity\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-28T02:49:56.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab10Identity\\lab10Identity\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "lab10Identity\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lab10Identity\\lab10Identity\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "lab10Identity\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-28T02:49:47.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

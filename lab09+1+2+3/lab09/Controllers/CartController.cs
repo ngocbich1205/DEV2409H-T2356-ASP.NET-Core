@@ -1,6 +1,7 @@
 ﻿using lab09.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Newtonsoft.Json;
 
 namespace lab09.Controllers
@@ -95,5 +96,94 @@ namespace lab09.Controllers
             HttpContext.Session.Remove("My-Cart");
             return RedirectToAction("Index");
         }
+        /// <summary> 
+        /// Code logic để hiển thị thông tin giỏ hàng;  
+        /// Dữ liệu giỏ hàng trong session cart 
+        /// </summary> 
+        /// <returns></returns> 
+        public IActionResult Orders()
+        {
+            if (HttpContext.Session.GetString("Member") == null)
+            {
+                //return RedirectToAction("Index", "CustomerMember"); 
+                return Redirect("/customermember/index/?url=/cart/orders");
+                // nếu người dùng chưa đăng nhập 
+            }
+            else
+            {
+                var dataMember =
+               JsonConvert.DeserializeObject<Customer>(HttpContext.Session.GetString("Member")); ViewBag.Customer = dataMember;
+                float total = 0;
+                foreach (var item in carts)
+                {
+                    total += item.Quantity * item.Price;
+                }
+                ViewBag.total = total;
+                // Phương thức thanh toán 
+                var dataPay = _context.PaymentMethods.ToList();
+                ViewData["IdPayment"] = new SelectList(dataPay, "Id", "Name", 1);
+            }
+            return View(carts);
+        }
+        /// <summary> 
+        /// Khi người dùng click vào nút thanh toán: 
+        /// - Thực hiện thêm dữ liệu vào bảng Orders, OrderDetails 
+        /// - Giải phóng session cart 
+        /// </summary> 
+        /// <param name="form"></param> 
+        /// <returns></returns> 
+        public async Task<IActionResult> OrderPay(IFormCollection form)
+        {
+            try
+            {
+                // Thêm bảng orders 
+                var order = new Order();
+                order.NameReciver = form["NameReciver"];
+                order.Email = form["Email"];
+                order.Phone = form["Phone"];
+                order.Address = form["Address"];
+                order.Notes = form["Notes"];
+                order.Idpayment = long.Parse(form["Idpayment"]);
+                order.OrdersDate = DateTime.Now;
+
+                var dataMember =
+JsonConvert.DeserializeObject<Customer>(HttpContext.Session.GetString("Member")); order.Idcustomer = dataMember.Id;
+                decimal total = 0;
+                foreach (var item in carts)
+                {
+                    total += item.Quantity * (decimal)item.Price;
+                }
+                order.TotalMoney = total;
+                // tạo orderId 
+                var strOrderId = "DH";
+
+                string timestamp = DateTime.Now.ToString("yyyy-MM-dd.HH-mm-ss.fff"); strOrderId += "." + timestamp;
+                order.Idorders = strOrderId;
+                _context.Add(order);
+                await _context.SaveChangesAsync();
+                // Lấy id bảng orders 
+                var dataOrder = _context.Orders.OrderByDescending(x => x.Id).FirstOrDefault();
+                foreach (var item in carts)
+                {
+                    Ordersdetail od = new Ordersdetail();
+                    od.Idord = dataOrder.Id;
+                    od.Idproduct = item.Id;
+                    od.Qty = item.Quantity;
+                    od.Price = (decimal)item.Price;
+                    od.Total = (decimal)item.Total;
+                    od.ReturnQty = 0;
+                    _context.Add(od);
+                    await _context.SaveChangesAsync();
+                }
+                HttpContext.Session.Remove("My-Cart");
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            return View();
+        }
+
     }
+
 }
