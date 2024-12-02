@@ -11,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -58,7 +58,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Views\\Home\\Index.cshtml",
@@ -66,8 +66,7 @@
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:07:08.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T04:07:08.33Z"
             },
             {
               "$type": "Document",
@@ -77,7 +76,7 @@
               "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvywAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T03:33:41.524Z",
               "EditorCaption": ""
@@ -92,12 +91,11 @@
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:04:49.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T04:04:49.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T03:34:12.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T03:34:12.494Z"
             },
             {
               "$type": "Document",
@@ -118,12 +115,11 @@
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Models\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:32:27.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T03:32:27.989Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
@@ -131,12 +127,11 @@
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:37:54.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T03:37:54.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Views\\Shared\\_LoginPartial.cshtml",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T03:35:07.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T03:35:07.857Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T03:35:38.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T03:35:38.196Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Program.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:37:02.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T03:37:02.676Z"
             },
             {
               "$type": "Document",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "lesson10\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T07:05:40.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T07:05:40.253Z"
             },
             {
               "$type": "Document",
@@ -196,8 +187,7 @@
               "RelativeToolTip": "lesson10\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-27T07:00:45.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T07:00:45.706Z"
             }
           ]
         }
