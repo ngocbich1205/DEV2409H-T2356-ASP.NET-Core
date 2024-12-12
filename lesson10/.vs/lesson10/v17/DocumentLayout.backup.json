@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34AA3DE5-371D-4345-A0CF-C82D3A74AB49}|lesson10\\lesson10.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34AA3DE5-371D-4345-A0CF-C82D3A74AB49}|lesson10\\lesson10.csproj|solutionrelative:lesson10\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34AA3DE5-371D-4345-A0CF-C82D3A74AB49}|lesson10\\lesson10.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34AA3DE5-371D-4345-A0CF-C82D3A74AB49}|lesson10\\lesson10.csproj|solutionrelative:lesson10\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34AA3DE5-371D-4345-A0CF-C82D3A74AB49}|lesson10\\lesson10.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34AA3DE5-371D-4345-A0CF-C82D3A74AB49}|lesson10\\lesson10.csproj|solutionrelative:lesson10\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34AA3DE5-371D-4345-A0CF-C82D3A74AB49}|lesson10\\lesson10.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34AA3DE5-371D-4345-A0CF-C82D3A74AB49}|lesson10\\lesson10.csproj|solutionrelative:lesson10\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -33,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10.customauthorize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{097492E4-9702-4C99-81F4-E50CAFE4B4F4}|Lesson10.CustomAuthorize\\Lesson10.CustomAuthorize.csproj|solutionrelative:lesson10.customauthorize\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34AA3DE5-371D-4345-A0CF-C82D3A74AB49}|lesson10\\lesson10.csproj|d:\\dev2409h-t2356-asp.net-core\\lesson10\\lesson10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +74,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\appsettings.json",
+              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\appsettings.json",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\appsettings.json",
+              "RelativeToolTip": "Lesson10.CustomAuthorize\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-03T01:50:32.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lesson10\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lesson10\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T01:50:06.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "lesson10\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "lesson10\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T01:50:02.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwCsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:33:41.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Models\\Login.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Models\\Login.cs",
+              "RelativeToolTip": "Lesson10.CustomAuthorize\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:32:27.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Program.cs",
+              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Program.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Program.cs",
+              "RelativeToolTip": "Lesson10.CustomAuthorize\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:37:02.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T03:34:12.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Views\\Home\\Index.cshtml",
@@ -66,24 +177,51 @@
               "RelativeToolTip": "Lesson10.CustomAuthorize\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T04:07:08.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Lesson10.CustomAuthorize\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:33:41.524Z",
+              "WhenOpened": "2024-11-28T04:07:08.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "lesson10\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "lesson10\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T01:49:25.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "lesson10\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "lesson10\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:49:44.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T03:37:54.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Views\\Admin\\Index.cshtml",
@@ -95,43 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Lesson10.CustomAuthorize\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T03:34:12.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Models\\Login.cs",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Models\\Login.cs",
-              "RelativeToolTip": "Lesson10.CustomAuthorize\\Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:32:27.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Lesson10.CustomAuthorize\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:37:54.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Views\\Shared\\_LoginPartial.cshtml",
@@ -143,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Views\\Shared\\_Layout.cshtml",
@@ -155,19 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Program.cs",
-              "RelativeDocumentMoniker": "Lesson10.CustomAuthorize\\Program.cs",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\Lesson10.CustomAuthorize\\Program.cs",
-              "RelativeToolTip": "Lesson10.CustomAuthorize\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:37:02.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\Program.cs",
               "RelativeDocumentMoniker": "lesson10\\Program.cs",
@@ -179,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\lesson10\\lesson10\\appsettings.json",
               "RelativeDocumentMoniker": "lesson10\\appsettings.json",
