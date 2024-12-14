@@ -1,4 +1,5 @@
-﻿@model DevXuongMoc.Models.Product
+﻿@using System.Web
+@model DevXuongMoc.Models.Product
 
 @{
     ViewData["Title"] = "Chi Tiết Sản Phẩm";
@@ -35,13 +36,19 @@
                     Mô Tả
                 </dt>
                 <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Description)
+                   @*  @Html.DisplayFor(model => model.Description) *@
+                 
+                    @Html.Raw(HttpUtility.HtmlDecode(Model.Description))
+
+
                 </dd>
                 <dt class="col-sm-4">
                     Nội Dung
                 </dt>
                 <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Content)
+                    @* @Html.DisplayFor(model => model.Content) *@
+                    @Html.Raw(HttpUtility.HtmlDecode(Model.Content))
+
                 </dd>
                 <dt class="col-sm-4">
                     Hình Ảnh
@@ -55,6 +62,7 @@
                 </dt>
                 <dd class="col-sm-8">
                     @Html.DisplayFor(model => model.MetaTitle)
+
                 </dd>
                 <dt class="col-sm-4">
                     Từ Khoá Meta
@@ -167,7 +175,7 @@
                     Trạng Thái
                 </dt>
                 <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Status)
+                    @Html.DisplayFor(model => model.StatusText)
                 </dd>
                 <dt class="col-sm-4">
                     Đã Xóa

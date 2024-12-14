@@ -24,7 +24,8 @@
                     @Html.DisplayNameFor(model => model.Icon)
                 </dt>
                 <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Icon)
+                    @* @Html.DisplayFor(model => model.Icon) *@
+                <img src="@Model.Icon" alt="Icon" class="img-thumbnail" style="max-width: 150px; max-height: 150px;">
                 </dd>
 
                 <dt class="col-sm-4">
@@ -114,7 +115,7 @@
                     @Html.DisplayNameFor(model => model.Status)
                 </dt>
                 <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Status)
+                    @Html.DisplayFor(model => model.StatusText)
                 </dd>
 
                 <dt class="col-sm-4">

@@ -9,7 +9,7 @@
 
 
 <hr />
-<form asp-action="Edit">
+<form asp-action="Edit" enctype="multipart/form-data">
 <div class="row">
     <div class="col-md-6">
         
@@ -24,7 +24,7 @@
 
             <div class="form-group">
                 <label asp-for="Icon" class="control-label"></label>
-                <input asp-for="Icon" class="form-control" />
+                <input asp-for="Icon" type="file" class="form-control" />
                 <span asp-validation-for="Icon" class="text-danger"></span>
             </div>
 
@@ -97,9 +97,9 @@
             </div>
 
             <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
+                <label asp-for="StatusText" class="control-label"></label>
+                <input asp-for="StatusText" class="form-control" />
+                <span asp-validation-for="StatusText" class="text-danger"></span>
             </div>
 
             <div class="form-group">

@@ -19,8 +19,8 @@
                 <dd class="col-sm-8">@* @Html.DisplayFor(model => model.Icon) *@
                     <img src="@Model.Icon" alt="Icon" class="img-thumbnail" style="max-width: 150px; max-height: 150px;">
                 </dd>
-                <dt class="col-sm-4">Tiêu Đề SEO</dt>
-                <dd class="col-sm-8">@Html.DisplayFor(model => model.MateTitle)</dd>
+                <dt class="col-sm-4" >Tiêu Đề SEO</dt>
+                <dd class="col-sm-8" >@Html.DisplayFor(model => model.MateTitle)</dd>
                 <dt class="col-sm-4">Từ Khóa SEO</dt>
                 <dd class="col-sm-8">@Html.DisplayFor(model => model.MetaKeyword)</dd>
                 <dt class="col-sm-4">Mô Tả SEO</dt>
@@ -46,7 +46,7 @@
                 <dt class="col-sm-4">Ghi Chú</dt>
                 <dd class="col-sm-8">@Html.DisplayFor(model => model.Notes)</dd>
                 <dt class="col-sm-4">Trạng Thái</dt>
-                <dd class="col-sm-8">@Html.DisplayFor(model => model.Status)</dd>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.StatusText)</dd>
                 <dt class="col-sm-4">Đã Xóa</dt>
                 <dd class="col-sm-8">@Html.DisplayFor(model => model.Isdelete)</dd>
             </dl>
@@ -54,6 +54,6 @@
     </div>
 </div>
 <div class="text-center">
-    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Chỉnh Sửa</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Chỉnh Sửa</a> 
     <a asp-action="Index" class="btn btn-secondary">Quay Lại Danh Sách</a>
 </div>

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|d:\\dev2409h-t2356-asp.net-core\\lab09.1\\lab09.1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|d:\\dev2409h-t2356-asp.net-core\\lab09.1\\lab09.1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|d:\\dev2409h-t2356-asp.net-core\\lab09.1\\lab09.1\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|d:\\dev2409h-t2356-asp.net-core\\lab09.1\\lab09.1\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\areas\\admin\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|d:\\dev2409h-t2356-asp.net-core\\lab09.1\\lab09.1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|d:\\dev2409h-t2356-asp.net-core\\lab09.1\\lab09.1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|d:\\dev2409h-t2356-asp.net-core\\lab09.1\\lab09.1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|solutionrelative:lab09.1\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9105962B-7973-4438-BC4A-C0160997ADDD}|Lab09.1\\Lab09.1.csproj|d:\\dev2409h-t2356-asp.net-core\\lab09.1\\lab09.1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -94,11 +98,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Lab09.1\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T03:18:17.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Areas\\Admin\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Views\\Login\\Index.cshtml",
@@ -111,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "BaseController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Areas\\Admin\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Controllers\\BaseController.cs",
@@ -124,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Areas\\Admin\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Controllers\\LoginController.cs",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Areas\\Admin\\Models\\Login.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Models\\Login.cs",
@@ -150,19 +167,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\CustomerMember\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab09.1\\Views\\CustomerMember\\Index.cshtml",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\CustomerMember\\Index.cshtml",
-              "RelativeToolTip": "Lab09.1\\Views\\CustomerMember\\Index.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwEMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T15:24:47.885Z"
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Lab09.1\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Lab09.1\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T15:26:09.029Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab09.1\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Lab09.1\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T15:24:43.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CustomerMemberController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Controllers\\CustomerMemberController.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Controllers\\CustomerMemberController.cs",
@@ -174,7 +205,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\CustomerMember\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab09.1\\Views\\CustomerMember\\Index.cshtml",
+              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\CustomerMember\\Index.cshtml",
+              "RelativeToolTip": "Lab09.1\\Views\\CustomerMember\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T15:24:47.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Controllers\\CartController.cs",
@@ -187,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -200,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Lab09.1\\Views\\Shared\\_Layout.cshtml",
@@ -212,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "site.css",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Lab09.1\\wwwroot\\css\\site.css",
@@ -224,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Orders.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\Cart\\Orders.cshtml",
               "RelativeDocumentMoniker": "Lab09.1\\Views\\Cart\\Orders.cshtml",
@@ -236,19 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Lab09.1\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Lab09.1\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:26:09.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "Lab09.1\\Views\\Cart\\Index.cshtml",
@@ -260,19 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab09.1\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Lab09.1\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T15:24:43.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Lab09.1\\Views\\Home\\Index.cshtml",
@@ -284,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Program.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Program.cs",
@@ -296,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\appsettings.json",
               "RelativeDocumentMoniker": "Lab09.1\\appsettings.json",
@@ -308,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Controllers\\HomeController.cs",
@@ -320,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Lab09.1\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -332,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "Lab09.1\\ScaffoldingReadMe.txt",
@@ -344,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "DevXuongMocContext.cs",
               "DocumentMoniker": "D:\\DEV2409H-T2356-ASP.NET-Core\\Lab09.1\\Lab09.1\\Models\\DevXuongMocContext.cs",
               "RelativeDocumentMoniker": "Lab09.1\\Models\\DevXuongMocContext.cs",

@@ -7,11 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DevXuongMoc.Models;
 using X.PagedList;
+using System.Reflection;
 
 namespace DevXuongMoc.Areas.Admin.Controllers
 {
-    //[Area("Admin")]
-    public class CategoriesController : BaseController
+    [Area("Admin")]
+    public class CategoriesController : Controller
     {
         private readonly XuongMocContext _context;
 
@@ -64,13 +65,22 @@ namespace DevXuongMoc.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Details", category);
+            }
             return View(category);
         }
 
         // GET: Admin/Categories/Create
         public IActionResult Create()
         {
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Create");
+            }
             return View();
         }
 
@@ -81,29 +91,39 @@ namespace DevXuongMoc.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,Icon,MateTitle,MetaKeyword,MetaDescription,Slug,Orders,Parentid,CreatedDate,UpdatedDate,AdminCreated,AdminUpdated,Notes,Status,Isdelete")] Category category)
         {
-            try
+            if (ModelState.IsValid)
             {
                 var files = HttpContext.Request.Form.Files;
-                if (files.Count() > 0 && files[0].Length > 0)
+                if (files.Any() && files[0].Length > 0)
                 {
                     var file = files[0];
-                    var FileName = file.FileName;
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\Category", FileName);
+                    var fileName = file.FileName;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\anhcat", fileName);
                     using (var stream = new FileStream(path, FileMode.Create))
                     {
                         file.CopyTo(stream);
-                        category.Icon = "/images/categories/" + FileName;
+                        category.Icon = "/images/anhcat/" + fileName;
                     }
                 }
                 _context.Add(category);
                 await _context.SaveChangesAsync();
+
+                // Return success response for AJAX
+                if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                {
+                    return Json(new { success = true, redirectUrl = Url.Action("Index") });
+                }
+
                 return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
+
+            // Return partial view for AJAX in case of validation errors
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
             {
-                ViewBag.error = ex.Message;
-                return View(category);
+                return PartialView("_Create", category);
             }
+            return View(category);
+            
         }
 
         // GET: Admin/Categories/Edit/5
@@ -118,6 +138,11 @@ namespace DevXuongMoc.Areas.Admin.Controllers
             if (category == null)
             {
                 return NotFound();
+            }
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Edit", category);
             }
             return View(category);
         }

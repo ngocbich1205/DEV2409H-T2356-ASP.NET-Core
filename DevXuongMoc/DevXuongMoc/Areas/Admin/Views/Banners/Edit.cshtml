@@ -8,7 +8,7 @@
 <h1 class="text-center my-2">Chỉnh sửa Banner</h1>
 
 <div class="row">
-    <form asp-action="Edit">
+    <form asp-action="Edit" enctype="multipart/form-data">
     <div class="col-md-6">
        
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -17,7 +17,7 @@
             <!-- Image -->
             <div class="form-group">
                 <label asp-for="Image" class="control-label"></label>
-                <input asp-for="Image" class="form-control" />
+                <input asp-for="Image" type="file" class="form-control" />
                 <span asp-validation-for="Image" class="text-danger"></span>
             </div>
 
@@ -97,9 +97,9 @@
 
             <!-- Status -->
             <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
+                <label asp-for="StatusText" class="control-label"></label>
+                <input asp-for="StatusText" class="form-control" />
+                <span asp-validation-for="StatusText" class="text-danger"></span>
             </div>
 
             <!-- IsDelete Checkbox -->

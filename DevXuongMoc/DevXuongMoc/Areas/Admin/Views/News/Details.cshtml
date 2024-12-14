@@ -42,11 +42,12 @@
                 </dd>
 
                 <dt class="col-sm-4">
-                    @* @Html.DisplayNameFor(model => model.Image) *@
-                    <img src="@Model.Image" alt="Image" class="img-thumbnail" style="max-width: 150px; max-height: 150px;">
+                    @Html.DisplayNameFor(model => model.Image)
+                  
                 </dt>
                 <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Image)
+                   @*  @Html.DisplayFor(model => model.Image) *@
+                    <img src="@Model.Image" alt="Image" class="img-thumbnail" style="max-width: 150px; max-height: 150px;">
                 </dd>
             </dl>
         </div>
@@ -141,7 +142,7 @@
                     @Html.DisplayNameFor(model => model.Status)
                 </dt>
                 <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Status)
+                    @Html.DisplayFor(model => model.StatusText)
                 </dd>
 
                 <dt class="col-sm-4">
@@ -156,6 +157,6 @@
 </div>
 
 <div class="text-center">
-    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Edit</a> 
     <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
 </div>

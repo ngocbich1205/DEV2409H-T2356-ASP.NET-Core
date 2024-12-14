@@ -7,11 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DevXuongMoc.Models;
 using X.PagedList;
+using System.Reflection;
 
 namespace DevXuongMoc.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class MaterialsController : BaseController
+    public class MaterialsController : Controller
     {
         private readonly XuongMocContext _context;
 
@@ -49,13 +50,22 @@ namespace DevXuongMoc.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Details", material);
+            }
             return View(material);
         }
 
         // GET: Admin/Materials/Create
         public IActionResult Create()
         {
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Create");
+            }
             return View();
         }
 
@@ -70,7 +80,17 @@ namespace DevXuongMoc.Areas.Admin.Controllers
             {
                 _context.Add(material);
                 await _context.SaveChangesAsync();
+                // Return success response for AJAX
+                if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                {
+                    return Json(new { success = true, redirectUrl = Url.Action("Index") });
+                }
                 return RedirectToAction(nameof(Index));
+            }
+            // Return partial view for AJAX in case of validation errors
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Create", material);
             }
             return View(material);
         }
@@ -87,6 +107,11 @@ namespace DevXuongMoc.Areas.Admin.Controllers
             if (material == null)
             {
                 return NotFound();
+            }
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Edit", material);
             }
             return View(material);
         }

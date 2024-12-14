@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using DevXuongMoc.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DevXuongMoc.Models;
 using X.PagedList;
 
 namespace DevXuongMoc.Areas.Admin.Controllers
 {
-    //[Area("Admin")]
-    public class BannersController : BaseController
+    [Area("Admin")]
+    public class BannersController : Controller
     {
         private readonly XuongMocContext _context;
 
@@ -49,13 +45,22 @@ namespace DevXuongMoc.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-
+           // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            { 
+                return PartialView("_Details", banner);
+            }
             return View(banner);
         }
 
         // GET: Admin/Banners/Create
         public IActionResult Create()
         {
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Create");
+            }
             return View();
         }
 
@@ -66,29 +71,39 @@ namespace DevXuongMoc.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Image,Title,SubTitle,Urls,Orders,Type,CreatedDate,UpdatedDate,AdminCreated,AdminUpdated,Notes,Status,Isdelete")] Banner banner)
         {
-            try
+            if (ModelState.IsValid)
             {
                 var files = HttpContext.Request.Form.Files;
-                if (files.Count() > 0 && files[0].Length > 0)
+                if (files.Any() && files[0].Length > 0)
                 {
                     var file = files[0];
-                    var FileName = file.FileName;
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\Banner", FileName);
+                    var fileName = file.FileName;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\anhcat", fileName);
                     using (var stream = new FileStream(path, FileMode.Create))
                     {
                         file.CopyTo(stream);
-                        banner.Image = "/images/banners/" + FileName;
+                        banner.Image = "/images/anhcat/" + fileName;
                     }
                 }
                 _context.Add(banner);
                 await _context.SaveChangesAsync();
+
+                // Return success response for AJAX
+                if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                {
+                    return Json(new { success = true, redirectUrl = Url.Action("Index") });
+                }
+
                 return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
+
+            // Return partial view for AJAX in case of validation errors
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
             {
-                ViewBag.error = ex.Message;
-                return View(banner);
+                return PartialView("_Create", banner);
             }
+            return View(banner);
+            
         }
 
         // GET: Admin/Banners/Edit/5
@@ -103,6 +118,11 @@ namespace DevXuongMoc.Areas.Admin.Controllers
             if (banner == null)
             {
                 return NotFound();
+            }
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Edit", banner);
             }
             return View(banner);
         }
@@ -129,11 +149,11 @@ namespace DevXuongMoc.Areas.Admin.Controllers
                         var file = files[0];
                         var FileName = file.FileName;
                         // upload ảnh vào thư mục wwwroot\\images\\Category 
-                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\Banner", FileName);
+                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\anhcat", FileName);
                         using (var stream = new FileStream(path, FileMode.Create))
                         {
                             file.CopyTo(stream);
-                            banner.Image = "/images/categories/" + FileName; //gán tên ảnh cho thuộc tính Image
+                            banner.Image = "/images/anhcat/" + FileName; //gán tên ảnh cho thuộc tính Image
                         }
                     }
                     _context.Update(banner);

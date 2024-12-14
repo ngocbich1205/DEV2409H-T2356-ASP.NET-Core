@@ -10,8 +10,8 @@ using X.PagedList;
 
 namespace DevXuongMoc.Areas.Admin.Controllers
 {
-    //[Area("Admin")]
-    public class ProductsController : BaseController
+    [Area("Admin")]
+    public class ProductsController : Controller
     {
         private readonly XuongMocContext _context;
 
@@ -49,13 +49,22 @@ namespace DevXuongMoc.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Details", product);
+            }
             return View(product);
         }
 
         // GET: Admin/Products/Create
         public IActionResult Create()
         {
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Create");
+            }
             return View();
         }
 
@@ -66,29 +75,39 @@ namespace DevXuongMoc.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Cid,Code,Title,Description,Content,Image,MetaTitle,MetaKeyword,MetaDescription,Slug,PriceOld,PriceNew,Size,Views,Likes,Star,Home,Hot,CreatedDate,UpdatedDate,AdminCreated,AdminUpdated,Status,Isdelete")] Product product)
         {
-            try
+            if (ModelState.IsValid)
             {
                 var files = HttpContext.Request.Form.Files;
-                if (files.Count() > 0 && files[0].Length > 0)
+                if (files.Any() && files[0].Length > 0)
                 {
                     var file = files[0];
-                    var FileName = file.FileName;
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\products", FileName);
+                    var fileName = file.FileName;
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\products", fileName);
                     using (var stream = new FileStream(path, FileMode.Create))
                     {
                         file.CopyTo(stream);
-                        product.Image = "/images/products/" + FileName;
+                        product.Image = "/images/products/" + fileName;
                     }
                 }
                 _context.Add(product);
                 await _context.SaveChangesAsync();
+
+                // Return success response for AJAX
+                if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                {
+                    return Json(new { success = true, redirectUrl = Url.Action("Index") });
+                }
+
                 return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
+
+            // Return partial view for AJAX in case of validation errors
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
             {
-                ViewBag.error = ex.Message;
-                return View(product);
+                return PartialView("_Create", product);
             }
+            return View(product);
+            
         }
 
         // GET: Admin/Products/Edit/5
@@ -103,6 +122,11 @@ namespace DevXuongMoc.Areas.Admin.Controllers
             if (product == null)
             {
                 return NotFound();
+            }
+            // Return partial view for AJAX
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+            {
+                return PartialView("_Edit", product);
             }
             return View(product);
         }

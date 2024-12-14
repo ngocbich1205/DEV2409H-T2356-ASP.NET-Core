@@ -1,4 +1,5 @@
-﻿@model DevXuongMoc.Models.Banner
+﻿@using System.Web
+@model DevXuongMoc.Models.Banner
 
 @{
     ViewData["Title"] = "Details";
@@ -92,7 +93,9 @@
                     @Html.DisplayNameFor(model => model.Notes)
                 </dt>
                 <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Notes)
+@*                     @Html.DisplayFor(model => model.Notes) *@
+                    @Html.Raw(HttpUtility.HtmlDecode(Model.Notes))
+
                 </dd>
             </dl>
         </div>
@@ -105,7 +108,7 @@
                     @Html.DisplayNameFor(model => model.Status)
                 </dt>
                 <dd class="col-sm-8">
-                    @Html.DisplayFor(model => model.Status)
+                    @Html.DisplayFor(model => model.StatusText)
                 </dd>
 
                 <dt class="col-sm-4">
@@ -120,6 +123,6 @@
 </div>
 
 <div class="text-center">
-    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Chỉnh sửa</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Chỉnh sửa</a> 
     <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
 </div>

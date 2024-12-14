@@ -4,10 +4,10 @@
     ViewData["Title"] = "Admin Users";
     Layout = "~/Areas/Admin/Views/Shared/Admin.cshtml";
 }
-
-<h1 class="text-center my-2">Quản lý Admin</h1>
-
-<div class="container my-1">
+<div class="row">
+    <div class="col-md-8">
+        <h1 class="text-center my-2">Quản lý Admin</h1>
+        <div class="container my-1">
     <form action="" method="get" class="d-flex align-items-center mb-4">
         <div class="form-group me-2 mt-3">
             <label class="visually-hidden" for="keyword">Tìm theo tên</label>
@@ -16,18 +16,16 @@
         <button type="submit" class="btn btn-primary me-2">
             <i class="fas fa-search"></i>
         </button>
-        <a asp-action="Create" class="btn btn-success">
-            <i class="fas fa-plus"></i> Thêm mới
-        </a>
+       <button class="btn btn-primary ajax-action" data-url="@Url.Action("Create")">Tạo mới</button>
     </form>
 
 <table class="table table-bordered table-hover">
     <thead class="thead-dark">
             <tr>
                 <th>Tài khoản</th> <!-- Thay cho Account -->
-                <th>Mật khẩu</th>
-                <th>Tên</th> <!-- Thay cho Name -->
-                <th>Số điện thoại</th> <!-- Thay cho Phone -->
+             @*    <th>Mật khẩu</th> *@
+               @*  <th>Tên</th> <!-- Thay cho Name -->
+                <th>Số điện thoại</th>  *@<!-- Thay cho Phone -->
                 <th>Email</th>
                 <th>Trạng thái</th>
                 <th class="text-center">Hành động</th>
@@ -38,20 +36,20 @@
         {
             <tr>
                 <td>@Html.DisplayFor(modelItem => item.Account)</td>
-                    <td>@Html.DisplayFor(modelItem => item.Password)</td>
-                <td>@Html.DisplayFor(modelItem => item.Name)</td>
-                <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                   @*  <td>@Html.DisplayFor(modelItem => item.Password)</td> *@
+               @*  <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Phone)</td> *@
                 <td>@Html.DisplayFor(modelItem => item.Email)</td>
                
-                <td>@Html.DisplayFor(modelItem => item.TrangThai)</td>
+                <td>@Html.DisplayFor(modelItem => item.TrangThaiText)</td>
                
                
                 <td class="text-center">
-                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
-                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Chi tiết</a>
-                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" onclick="return confirmDelete(@item.Id);">
-                            <i class="fas fa-trash"></i> Xóa
-                        </a>
+                                <button class="btn btn-warning btn-sm ajax-action" data-url="@Url.Action("Edit", new { id = item.Id })"><i class="fa-solid fa-pencil-alt"></i></button>
+                                <button class="btn btn-info btn-sm ajax-action" data-url="@Url.Action("Details", new { id = item.Id })"><i class="fa-solid fa-eye"></i></button>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" onclick="return confirmDelete(@item.Id);">
+                                    <i class="fas fa-trash"></i> 
+                                </a>
                 </td>
             </tr>
         }
@@ -64,15 +62,40 @@
        PageClasses = new string[] { "page-link" }
    })
     </div>
+
+
+
+    </div></div>
+    <div class="col-md-4">
+        <div class="click"></div>
+    </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
+    $(document).ready(function () {
+        $(".ajax-action").click(function (e) {
+            e.preventDefault();
+
+            // Get the URL from the data attribute
+            var url = $(this).data("url");
+
+            // Load the content into the .click div
+            $(".click").load(url, function (response, status, xhr) {
+                if (status == "error") {
+                    alert("Error: " + xhr.status + " " + xhr.statusText);
+                }
+            });
+        });
+    });
     function confirmDelete(id) {
         if (confirm('Bạn có chắc chắn muốn xóa?')) {
             // Nếu nhấn OK, thực hiện xóa
-            window.location.href = '/AdminUsersController/Delete/' + id;
+            window.location.href = '/BannersController/Delete/' + id;
             return true; // Cho phép thực hiện hành động
         } else {
             return false; // Không thực hiện hành động
         }
     }
+   
 </script>
