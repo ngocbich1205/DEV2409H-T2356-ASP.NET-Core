@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\lession05\\lession05\\lession05.csproj": {}
+    "D:\\DEV2409H-T2356-ASP.NET-Core\\lession05\\lession05\\lession05.csproj": {}
   },
   "projects": {
-    "D:\\lession05\\lession05\\lession05.csproj": {
+    "D:\\DEV2409H-T2356-ASP.NET-Core\\lession05\\lession05\\lession05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\lession05\\lession05\\lession05.csproj",
+        "projectUniqueName": "D:\\DEV2409H-T2356-ASP.NET-Core\\lession05\\lession05\\lession05.csproj",
         "projectName": "lession05",
-        "projectPath": "D:\\lession05\\lession05\\lession05.csproj",
+        "projectPath": "D:\\DEV2409H-T2356-ASP.NET-Core\\lession05\\lession05\\lession05.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\lession05\\lession05\\obj\\",
+        "outputPath": "D:\\DEV2409H-T2356-ASP.NET-Core\\lession05\\lession05\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

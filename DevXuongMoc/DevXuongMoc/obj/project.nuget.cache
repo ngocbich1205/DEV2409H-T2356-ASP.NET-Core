@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vbMsLUAoU2Y=",
+  "dgSpecHash": "c0iGrKVBHhM=",
   "success": true,
-  "projectFilePath": "D:\\DEV2409H-T2356-ASP.NET-Core\\DevXuongMoc\\DevXuongMoc\\DevXuongMoc.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\báo cáo tốt nghiệp\\K21CNT1-Trần Ngọc Bích-2110900007-WebsiiteDevXuongMoc\\DevXuongMoc\\DevXuongMoc\\DevXuongMoc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

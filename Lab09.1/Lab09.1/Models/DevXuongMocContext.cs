@@ -719,6 +719,11 @@ public partial class DevXuongMocContext : DbContext
             entity.Property(e => e.TotalMoney)
                 .HasColumnType("decimal(18, 0)")
                 .HasColumnName("TOTAL_MONEY");
+
+            entity.HasOne(d => d.IdNavigation).WithOne(p => p.Order)
+                .HasForeignKey<Order>(d => d.Id)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_ORDERS_CUSTOMER");
         });
 
         modelBuilder.Entity<Orderdetail>(entity =>
@@ -738,6 +743,11 @@ public partial class DevXuongMocContext : DbContext
             entity.Property(e => e.Total)
                 .HasColumnType("decimal(18, 0)")
                 .HasColumnName("TOTAL");
+
+            entity.HasOne(d => d.IdNavigation).WithOne(p => p.Orderdetail)
+                .HasForeignKey<Orderdetail>(d => d.Id)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_ORDERDETAILS_CUSTOMER");
         });
 
         modelBuilder.Entity<Partner>(entity =>

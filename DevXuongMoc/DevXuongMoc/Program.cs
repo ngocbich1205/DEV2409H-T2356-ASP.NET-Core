@@ -1,11 +1,11 @@
-using DevXuongMoc.Models;
+﻿using DevXuongMoc.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-// ??ng k� d?ch v? cho HttpContextAccessor
+// ??ng ký d?ch v? cho HttpContextAccessor
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddSession(options =>
 {

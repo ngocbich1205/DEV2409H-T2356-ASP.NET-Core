@@ -5,7 +5,7 @@ namespace Lab09._1.Models;
 
 public partial class Order
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
 
     public string? Idorders { get; set; }
 
@@ -30,4 +30,6 @@ public partial class Order
     public byte? Isdelete { get; set; }
 
     public byte? Isactive { get; set; }
+
+    public virtual Customer IdNavigation { get; set; } = null!;
 }

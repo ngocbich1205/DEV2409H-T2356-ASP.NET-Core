@@ -5,7 +5,7 @@ namespace Lab09._1.Models;
 
 public partial class Orderdetail
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
 
     public long? Idord { get; set; }
 
@@ -18,4 +18,6 @@ public partial class Orderdetail
     public decimal? Total { get; set; }
 
     public int? ReturnQty { get; set; }
+
+    public virtual Customer IdNavigation { get; set; } = null!;
 }

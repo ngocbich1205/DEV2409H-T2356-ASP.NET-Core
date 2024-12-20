@@ -5,7 +5,7 @@ namespace Lab09._1.Models;
 
 public partial class Customer
 {
-    public long Id { get; set; }
+    public int Id { get; set; }
 
     public string? Name { get; set; }
 
@@ -32,4 +32,8 @@ public partial class Customer
     public byte? Isdelete { get; set; }
 
     public byte? Isactive { get; set; }
+
+    public virtual Order? Order { get; set; }
+
+    public virtual Orderdetail? Orderdetail { get; set; }
 }
